@@ -1,4 +1,4 @@
-## "Docker_hw"
+## Docker_hw
 
 27.2. Docker Compose
 
