@@ -12,6 +12,7 @@ app.config_from_object("django.conf:settings", namespace="CELERY")
 
 # Автоматическое обнаружение задач
 app.autodiscover_tasks()
+
 app.conf.beat_schedule = {
     "deactivate-inactive-users": {
         "task": "users.tasks.deactivate_inactive_users",
