@@ -18,10 +18,6 @@
 ```sh
  docker-compose up -d --build    
 ```
-Для запуска проекта выполните:
-```sh
- python manage.py runserver    
-```
 ## Автор
 
 [Aлександр Малахинский](https://github.com/AlexanderMalach)
